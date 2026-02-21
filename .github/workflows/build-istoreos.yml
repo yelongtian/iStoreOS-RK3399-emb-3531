@@ -16,20 +16,9 @@ on:
         options:
           - am40
           - dg3399
-          - dlfr100
+          - emb-3531
           - fine3399
-          - fmx1-pro
-          - fnet3399
-          - h3399pc
           - king3399
-          - mpc1903
-          - sv901-eaio
-          - sv-33a6x
-          - tn3399
-          - tpm-312
-          - tvi3315a
-          - xiaobao-nas
-          - zysj-1739a
 
 env:
   REPO_URL: https://github.com/istoreos/istoreos
