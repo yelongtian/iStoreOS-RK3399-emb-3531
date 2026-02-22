@@ -26,6 +26,6 @@ TARGET_DEVICES += emb_3531" >> target/linux/rockchip/image/armv8.mk
 cp -f $GITHUB_WORKSPACE/emb-3531/uboot-rockchip/Makefile package/boot/uboot-rockchip/Makefile
 
 # 复制patch到对应的目录
-cp -f $GITHUB_WORKSPACE/emb-3531/uboot-rockchip/patches/990-rk3399-emb-3531-uboot.patch package/boot/uboot-rockchip/patches/990-rk3399-emb-3531-uboot.patch
+cp -f $GITHUB_WORKSPACE/emb-3531/uboot-rockchip/patches/990-rk3399-emb-3531-uboot.patch package/boot/uboot-rockchip/patches/992-rk3399-emb-3531-uboot.patch
 
-cp -f $GITHUB_WORKSPACE/emb-3531/kernel-rockchip/patches/990-rockchip-rk3399-emb-3531-kernel.patch target/linux/rockchip/patches-6.6/990-rockchip-rk3399-emb-3531-kernel.patch
+cp -f $GITHUB_WORKSPACE/emb-3531/kernel-rockchip/patches/990-rockchip-rk3399-emb-3531-kernel.patch target/linux/rockchip/patches-6.6/992-rockchip-rk3399-emb-3531-kernel.patch
