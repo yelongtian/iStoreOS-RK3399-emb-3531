@@ -937,10 +937,6 @@ index 000000000..76c8658f4
 +	dr_mode = "host";
 +};
 +
-+&usbdrd3_1 {
-+	status = "okay";
-+};
-+
 +&usbdrd_dwc3_1 {
 +	status = "okay";
 +	dr_mode = "host";
