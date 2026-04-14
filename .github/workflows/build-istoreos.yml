@@ -16,7 +16,7 @@ on:
         options:
           - am40
           - dg3399
-          - emb3531
+          - emb-3531
           - dlfr100
           - fine3399
           - fmx1-pro
