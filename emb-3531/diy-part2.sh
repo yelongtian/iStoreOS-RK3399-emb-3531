@@ -16,10 +16,7 @@ echo -e "\ndefine Device/emb-3531
   SOC := rk3399
   UBOOT_DEVICE_NAME := emb-3531-rk3399
   IMAGE/sysupgrade.img.gz := boot-common | boot-script | pine64-img | gzip | append-metadata
-  DEVICE_PACKAGES := kmod-r8169 kmod-rtl8188eu firmware-rtl8188eu kmod-sound-soc-rockchip \
-  kmod-sound-soc-es8316 kmod-drm-rockchip kmod-drm-panfrost rockchip-cdn-dp-firmware \
-  kmod-usb-dwc3 kmod-pcie-rockchip kmod-rockchip-wdt kmod-rtc-generic wpad-mbedtls \
-  kmod-gpio-button-hotplug kmod-usb-net-rtl8152 -urngd
+  DEVICE_PACKAGES := kmod-r8169 -urngd
 endef
 TARGET_DEVICES += emb-3531" >> target/linux/rockchip/image/armv8.mk
 
